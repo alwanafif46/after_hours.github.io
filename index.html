@@ -1,0 +1,254 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>AFTER HOURS by Alwan</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+   /* Umum untuk seluruh body */
+body {
+    background-color: #7f252e; /* Merah Marun */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Pengaturan wrapper untuk membuat elemen fleksibel */
+.wrapper {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Pengaturan section dengan responsif */
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Pengaturan banner dan spotlight untuk layar vertikal */
+.banner, .spotlight {
+    position: relative;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Transparansi latar belakang hitam */
+    border-radius: 10px;
+    margin: 10px 0;
+    display: block;
+    width: 100%;
+}
+
+/* Gaya untuk teks judul */
+.banner h1, .spotlight h2 {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #FFD700; /* Gold */
+    margin: 10px 0;
+}
+
+/* Gaya untuk paragraf dalam banner dan spotlight */
+.banner p, .spotlight p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Gambar yang lebih responsif */
+.image {
+    margin-top: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid #fff;
+}
+
+/* Responsif untuk layar kecil (HP) */
+@media (max-width: 768px) {
+    body {
+        background-color: #7f212b;
+    }
+
+    .wrapper {
+        padding: 10px;
+    }
+
+    .banner, .spotlight {
+        padding: 10px;
+    }
+
+    .banner h1 {
+        font-size: 1.8em;
+    }
+
+    .spotlight h2 {
+        font-size: 1.6em;
+    }
+
+    .banner p, .spotlight p {
+        font-size: 1em;
+    }
+
+    .image img {
+        border-radius: 5px;
+    }
+
+}
+
+/* Perbaiki posisi footer agar lebih sesuai */
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+footer h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #FFD700;
+    margin: 0;
+}
+
+/* Menambahkan ruang terpisah untuk bagian "Thanks For Reading" */
+.thanks-for-reading {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #7f212b;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.thanks-for-reading h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #FFD700;
+    margin: 0;
+}
+
+
+
+/* Divider Line */
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 30px 0;
+}
+
+/* Kotak cerita */
+.section-background {
+    background-color: rgba(0, 0, 0, 0.7); /* Transparansi latar belakang hitam */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+
+/* Menyesuaikan gaya untuk bagian konten cerita agar terlihat lebih rapih */
+.section-background p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+    </style>
+</head>
+<body class="is-preload">
+    <div id="wrapper" class="divided">
+        <section class="banner style1 landscape">
+            <div class="content">
+                <h1>AFTER HOURS</h1>
+                <p class="major">
+                    Cerita ini menggambarkan perjalanan Abel dari kehilangan, kehancuran, hingga pengakuan. 
+                    Lirik dari ketiga lagu menjadi fondasi emosi yang membentuk perjalanan Abel.
+                </p>
+                <p>
+                    Abel hanyalah bayangan dirinya yang dulu. Kehilangan Elena telah membuatnya terperosok ke dalam kesepian. 
+                    Di kota yang tak pernah tidur, ia bergulat dengan penyesalan, mencari cara untuk menebus kesalahan 
+                    yang mengubah cinta mereka menjadi kepahitan.
+                </p>
+            </div>
+            <div class="image">
+                <img src="images/banner.jpg" alt="After Hours Banner" />
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+            <div class="content">
+                <h2>Blinding Lights</h2>
+                <p>Abel menyetir sendirian di malam yang penuh hujan, lampu neon kota berkilauan di kaca mobil. Keheningan dipecah oleh suara hatinya yang terus berteriak memanggil Elena.</p>
+                <p>"I said, ooh, I’m blinded by the lights... No, I can’t sleep until I feel your touch..."
+                Ia menekan gas, menyusuri jalan yang pernah mereka lalui bersama, berharap menemukan secercah kehadiran Elena. Hatinya penuh kerinduan, tetapi ketakutan tak kalah besar. Apakah ia telah merusak segalanya selamanya?</p>
+            </div>
+            <div class="image">
+                <img src="images/spotlight02.jpg" alt="" />
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+            <div class="content">
+                <h2>Heartless</h2>
+                <p>"I lost my heart and my mind" Pagi itu, Abel terbangun di tempat yang tidak ia ingat, dengan perasaan pusing akibat alkohol. Di sekitar meja, masih ada beberapa gelas kosong dan sisa-sisa pesta yang telah berlalu. Ia berusaha untuk mengingat siapa yang ada bersamanya semalam, tapi semuanya terasa kabur.</p>
+                <p>"I’m heartless, and I’m back to my ways..."
+                Dia merasa tidak ada yang mengerti dirinya, bahwa perasaan kosong itu hanya bisa diisi sementara, dan itu bukan cinta. Semua yang ia lakukan hanyalah pengalihan—untuk mencoba merasakan kebahagiaan yang telah hilang.</p>
+            </div>
+            <div class="image">
+                <img src="images/spotlight03.jpg" alt="" />
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+            <div class="content">
+                <h2>After Hours</h2>
+				<p>"Cause this house is not a home without my baby..."Ia merasakan kehadiran Elena di setiap sudut ruangan. Semua itu kini hanyalah bayangan. Rumah yang dulu terasa seperti tempat perlindungan kini hanya menjadi sebuah ruang kosong, tempat ia menyendiri dalam kesepian.</p><p>"This time I won’t break your heart, your heart, no..." Abel sangat menyesali perbuatannya, Semua yang ia bisa lakukan sekarang hanyalah merasakan penyesalan yang begitu dalam, Ia berjanji pada dirinya sendiri bahwa jika ia diberi kesempatan lagi, ia tidak akan pernah lagi membuat kesalahan yang sama.</p>
+            </div>
+            <div class="image">
+                <img src="images/spotlight01.jpg" alt="" />
+            </div>
+        </section>
+
+        <footer>
+            <h3>Thanks For Reading</h3>
+        </footer>
+    </div>
+
+			
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
